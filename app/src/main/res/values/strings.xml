@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Blood Donor</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string-array name="Blood_Group">
+        <item>A-</item>
+        <item>A+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>O-</item>
+        <item>0+</item>
+    </string-array>
+</resources>

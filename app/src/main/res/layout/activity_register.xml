@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Register"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:hint="Name"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGender"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:id="@+id/etEmail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Contact No"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:id="@+id/etContact" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="Address"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:id="@+id/etAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:id="@+id/etCity" />
+    <Button
+        android:layout_width="fill_parent"
+        android:text="Register"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btNext" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Back to Login"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLogin" />
+
+
+</LinearLayout>
+
